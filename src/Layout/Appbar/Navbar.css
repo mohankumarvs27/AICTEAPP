@@ -1,0 +1,79 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  line-height: 21px;
+}
+.btn {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: 0;
+  height: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-icon {
+  position: relative;
+}
+.input-icon-addon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  color: #626976;
+  pointer-events: none;
+  font-size: 1.2em;
+}
+.input-icon .form-control:not(:first-child),
+.input-icon .form-select:not(:last-child) {
+  padding-left: 2.5rem;
+}
+
+.navbar-light {
+  box-shadow: inset 0 -1px 0 0 rgb(98 105 118 / 16%);
+  background-color: #fff;
+}
+.navbar-collapse .navbar {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #sear {
+    align-items: normal;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #sig {
+    display: none;
+  }
+}
+
+#login {
+  margin-left: 10px;
+  color: #f75700;
+  border-color: #f75700;
+}
+
+#login:hover {
+  background-color: rgba(42, 58, 141, 0.08) !important;
+}
+
+#register {
+  margin-left: 10px;
+  background-color: #f75700;
+}
+.body {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+}
