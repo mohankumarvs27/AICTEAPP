@@ -24,4 +24,4 @@ The specific objectives of the project are to:
 
 ## Live Website
 
-The website is now live and can be accessed at https://aicteapp.netfily.app
+The website is now live and can be accessed at https://aicteapp.netlify.app
