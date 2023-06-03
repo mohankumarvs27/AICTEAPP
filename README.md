@@ -1,7 +1,3 @@
----
-TITLE: Attractiveness and User Friendliness of AICTE Website
----
-
 # Project Title
 
 Attractiveness and User Friendliness of AICTE Website
